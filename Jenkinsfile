@@ -6,7 +6,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building application...'
-                sh 'echo Build completed'
+                echo 'Hello! Jenkins automatic build is working.'
             }
         }
 
